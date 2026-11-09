@@ -1,34 +1,47 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://ccte.hhu.edu.cn/' target='_blank'>河海大学 土木与交通学院</a> · 岩石力学与计算工程课题组
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>孟庆祥 教授 / 博导</strong></p>
+    <p>河海大学 土木与交通学院</p>
+    <p>江苏省南京市鼓楼区西康路1号</p>
+    <p>Email: mengqx@hhu.edu.cn</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 5
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+欢迎访问河海大学土木与交通学院**孟庆祥教授课题组**（Rock Mechanics & Computational Engineering Group）主页！
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+本课题组长期致力于**岩石力学与地下工程**、**细观力学与多尺度均匀化理论**以及**工程数值计算软件（CAE）与智能算法研发**。我们结合理论解析、多尺度数值模拟与室内试验，重点解决复杂地质条件下深部隧道围岩收敛-约束相互作用、非均质岩体细观损伤演化等关键科学与工程问题。
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<hr>
+
+#### **核心研究方向 (Research Highlights)**
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <h5><strong>1. 隧道收敛-约束与支护互馈</strong></h5>
+        <p class="small text-muted">研究深部高应力隧道围岩特征曲线（GRC）、纵向变形曲线（LDP）及新型限阻/让压支护结构协同作用机理，研发专业轻量化分析软件。</p>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <h5><strong>2. 细观力学与多尺度均匀化</strong></h5>
+        <p class="small text-muted">基于 Eshelby 夹杂理论、Hill-Mandel 能量原理与应变局部化张量，构建考虑微裂隙与多相夹杂的非均质岩体本构与断裂模型。</p>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <h5><strong>3. 工程计算软件与智能图像分析</strong></h5>
+        <p class="small text-muted">开发面向岩土工程的桌面端 CAE 软件（如 MyRocSupport）、三维 CT 图像智能分割与细观网格重构工具链。</p>
+    </div>
+</div>
